@@ -10,12 +10,12 @@ document.body.addEventListener('keydown', function(e)) {
 
   if (array.length === code.length) {
     for(var i = 0; i < array.length; i ++) {
-      if(array[i] !== code[i])
+      if(array[i] !== code[i]) {
       return
-     }
-    }
-  }alert('Congratulations!')
-
+       }
+      }
+    }alert('Congratulations!')
+  }
 }
 
 init()
