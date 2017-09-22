@@ -13,7 +13,7 @@ document.body.addEventListener('keydown', function(e)) {
       if(array[i] !== code[i])
       return
      }
-    } 
+    }
   }alert('Congratulations!')
 
 }
