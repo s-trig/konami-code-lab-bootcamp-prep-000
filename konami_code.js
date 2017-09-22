@@ -16,7 +16,7 @@ document.body.addEventListener('keydown', function(e) {
       }
     alert('Congratulations!')
    }
-  }
+ })
 }
 
 init()
